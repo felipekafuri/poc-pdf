@@ -125,7 +125,7 @@ Installing OpenCV + pkg-config on Windows can be more involved. The easiest meth
 ## Project Structure
 
 ```
-go-pdf-signature-poc/
+poc-pdf/
 ├── main.go
 └── README.md
 ```
@@ -142,7 +142,7 @@ go-pdf-signature-poc/
 2. Initialize a Go module (if not already done):
 
    ```bash
-   go mod init go-pdf-signature-poc
+   go mod init poc-pdf
    go mod tidy
    ```
 
